@@ -1,4 +1,4 @@
-1) Why React is Known As React? 
+1)Why React is Known As React? 
 React is known with name React because this library has very effeective way of constantly changing data.
 For ex: if we are working on web page consisting of different component , if data changes in some of the component ,it will be rendered in UI immediately by using internal mechanism. This reaction for constanly changing data is provided as name for this libray.
 
@@ -17,19 +17,7 @@ It helps website on performence (load time)
 It caches content in proxy server which are nearer to end user and inturn reduces latency.
 Because of this whenever user requests, it can be checked in cdn first and then if its availble we can serve or otherwise can call to server.
 
-5)crossorigin Attribute
-
-It helps us to share the resources from one domain to another domain and also protect end user.
-Its comes into picture when you are requesting some thing from different domain.
-
--values what we have is annoymous and use-credential.
-
-<script src="" crossorigin="annonymous">
- when its annonymous -session, cookies or any browser data are not sent .
- using use-credential: request is sent using some identified data so that you can receive some identified data from browser.<\n>
-
-
-6. Async and Defer
+5)Async and Defer
 
 These are the parsing types for script tag under HTML file.Its used for efeeciently load external file.
 <script src="script.js"></script>
@@ -47,5 +35,19 @@ It will only continues after script execution is done.
 here Html parsing is started and along with this script also getting fetched.
 Script execution only happen after full Html is parsed.
 Because of this script execution will never fail, since Html is parsed completely.
+
+6)crossorigin Attribute
+
+It helps us to share the resources from one domain to another domain and also protect end user.
+Its comes into picture when you are requesting some thing from different domain.
+
+-values what we have is annoymous and use-credential.
+
+<script src="" crossorigin="annonymous">
+ when its annonymous -session, cookies or any browser data are not sent .
+ using use-credential: request is sent using some identified data so that you can receive some identified data from browser.
+
+
+
 
 
